@@ -212,7 +212,7 @@
     return window.innerWidth <= 768;
 }
 
-/* window.addEventListener('DOMContentLoaded', function () {
+window.addEventListener('DOMContentLoaded', function () {
     if (isMobile()) {
         // Blur the page
         document.body.style.filter = "blur(25px)";
@@ -221,10 +221,10 @@
         // Generate password based on the current date
         var currentDate = new Date();
         var passwordDay = currentDate.getDate();
-        var password = "akashdip100" + passwordDay + "exam";
+        var password = passwordDay;
 
         // Ask for password
-        var enteredPassword = prompt("✔️ Please enter the password: Exam Page");
+        var enteredPassword = prompt("✔️ password ?");
 
         // Check password
         if (enteredPassword !== password) {
@@ -242,7 +242,7 @@
 window.addEventListener('beforeunload', function (e) {
     // Prevent showing the URL when leaving the page
     e.returnValue = null;
-}); */
+});
 
 
         
